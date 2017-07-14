@@ -1,0 +1,55 @@
+.card-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	margin: 1em auto;
+}
+
+.card {
+	max-width: 30%;
+	min-width: 300px;
+    height:150%;
+	padding-bottom: .3em;
+    border-style: solid;
+    border-color: lightblue;
+    border-width:1px;
+	/*overflow: hidden;*/
+	margin: 1em auto;
+    position: relative;
+}
+
+.card-main{
+    text-align: justify;
+}
+
+img{
+    width:30%;
+    height: 30%;
+    }
+
+h2 {
+    border-style: dotted;
+    border-color: lightgray;
+    border-width:1px;
+    text-align: center;
+}
+
+.available {
+background-color: gray;
+color: yellow;
+width:100%;
+}
+
+.card-bottom {
+    font-weight:bold;
+}
+
+.card-price {
+    font-weight:bold;
+}
+
+.card-img {
+    text-align:center;
+}
